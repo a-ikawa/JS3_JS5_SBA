@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Option 1 - include the defer -->
+    <script src="./script.js" defer></script>
+    <!--CSS Style-->
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <!--Form-->
+    <div class="form">
+        <h1>Input Your Information</h1>
+          <label for="First Name">First Name:</label>
+          <input id="firstName" type="text" name="text" placeholder="First Name" required/>
+          <br>
+          <label for="Last Name">Last Name:</label>
+          <input id="lastName" type="text" name="text" placeholder="Last Name" required/>
+          <br>
+          <label for="Age">Age:</label>
+          <input id="age" type="number" name="number" placeholder="Age" required/>
+          <br>
+          <!-- Add a Submit button to the HTML page: A button named Submit-->
+          <button id="submit" type="submit">Click This Button</button>
+    </div>
+      <br>
+      <!-- Add a <div> to the HTML page that is empty. -->
+      <div id="message"></div>
+
+<!-- Option 2 - exclude the defer -->
+<!-- <script src="./script.js"></script> -->
+    </body>
+</html>
